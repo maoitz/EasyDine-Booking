@@ -1,0 +1,4 @@
+.select{
+    width:100%; padding:.6rem .75rem; border-radius:12px;
+    border:1px solid var(--border); background:#fff;
+}

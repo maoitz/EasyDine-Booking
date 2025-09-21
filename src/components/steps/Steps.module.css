@@ -1,0 +1,61 @@
+.stack{ display:grid; gap:12px; }
+.gridCards{
+  display:grid; gap:10px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+.tableBtn{
+  padding:12px; border-radius:12px; background:#fff;
+  border:1px solid var(--border); text-align:left; cursor:pointer;
+}
+.tableBtn--active{ border:2px solid var(--accent); }
+.badge{
+  display:inline-flex; align-items:center; gap:.35rem;
+  font-size:.85rem; padding:.25rem .5rem; border-radius:999px;
+  background:var(--accent-ink); color:var(--accent);
+}
+
+/* list-style selection */
+.listCards{ list-style:none; padding:0; margin:0; display:grid; gap:10px; }
+.listItem{
+  display:flex; align-items:center; justify-content:space-between; gap:12px;
+  padding:12px 14px; border:1px solid var(--border); border-radius:12px; background:#fff;
+}
+.listItemActive{ border:2px solid var(--accent); }
+.listItemMain{ display:flex; flex-direction:column; gap:6px; }
+.listTitle{ display:flex; align-items:center; gap:10px; }
+.tableLabel{ font-weight:700; }
+.seats{ color:var(--muted); font-size:.95rem; }
+
+.listMeta{ display:flex; align-items:center; gap:8px; }
+.listActions{ display:flex; align-items:center; gap:8px; }
+
+.badge{
+  display:inline-flex; align-items:center; gap:.35rem;
+  font-size:.85rem; padding:.25rem .5rem; border-radius:999px;
+  background:var(--accent-ink); color:var(--accent);
+}
+.badgeGhost{
+  display:inline-flex; align-items:center; gap:.35rem;
+  font-size:.85rem; padding:.25rem .5rem; border-radius:999px;
+  background:#f4f4f4; color:#444;
+}
+
+/* review layout */
+.reviewGrid{
+  display:grid; gap:10px;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+}
+.label{ color:var(--muted); font-size:.9rem; }
+.labelStrong{ font-weight:700; margin-bottom:.25rem; }
+.value{ font-weight:600; }
+
+.reviewCard{
+  border:1px solid var(--border); border-radius:12px; padding:12px;
+  background:#fff;
+}
+.kvRow{
+  display:flex; align-items:center; justify-content:space-between;
+  padding:6px 0; border-bottom:1px dashed var(--border);
+}
+.kvRow:last-child{ border-bottom:none; }
+
